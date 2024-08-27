@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-postcss-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./src/css/style.css -w",
+    "build":"cross-env NODE_ENV=production postcss ./src/css/tailwind.css -o ./dist/style.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "cssnano": "^7.0.5",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^13.0.0",
+    "tailwindcss": "^3.4.10"
+  }
+}

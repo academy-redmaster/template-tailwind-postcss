@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./components/btn.css"; /* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+nav {
+  ul {
+    li {
+      a {
+        @apply bg-slate-700;
+      }
+    }
+  }
+}
